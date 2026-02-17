@@ -33,8 +33,7 @@ const displayTrendingProducts = (products) => {
     console.log(product);
     productsCard.innerHTML = `
             <figure class="bg-gray-100 p-5">
-              <img
-              class="h-48 w-48"
+              <img class="h-48 w-48"
                 src=${product.image}
                 alt="Shoes"
               />

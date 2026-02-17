@@ -21,7 +21,15 @@ const displayTrendingProducts = (products) => {
 
   for (let product of trendingProducts) {
     const productsCard = document.createElement("div");
-    productsCard.classList.add("w-96", "bg-base-100", "shadow-xl", "card");
+    productsCard.classList.add(
+      "w-96",
+      "bg-base-100",
+      "shadow-xl",
+      "card",
+      "flex",
+      "flex-col",
+      "justify-between",
+    );
     console.log(product);
     productsCard.innerHTML = `
             <figure class="bg-gray-100 p-5">

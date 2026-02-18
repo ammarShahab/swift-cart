@@ -72,30 +72,130 @@
             ></i>
           </div>
         </div>
-        <!-- Banner -->
-        <section>
-          <div class="w-full">
-            <img
-              class="w-full"
-              src="./assets/banner-image.png"
-              alt="banner"
-              srcset=""
-            />
-          </div>
-          <h3>Best Collection For You</h3>
-          <p>
+      </nav>
+
+      <!-- Banner -->
+      <section class="relative">
+        <div>
+          <img
+            class="w-full h-full object-contain"
+            src="./assets/banner-image.png"
+            alt="banner"
+            srcset=""
+          />
+        </div>
+        <div
+          class="absolute bg-gradient-to-r from-gray-900 to-transparent inset-0"
+        ></div>
+        <div
+          class="absolute bottom-12 sm:bottom-[35%] md:bottom-[38%] left-8 md:left-40 space-y-3 md:space-y-6"
+        >
+          <h3
+            class="font-extrabold text-white text-2xl sm:text-4xl md:text-6xl"
+          >
+            Best Collection For You
+          </h3>
+
+          <p class="text-slate-50 text-sm md:text-lg">
             Discover the latest trends in fashion, electronics and more. Shop
             with confidence and style with SwiftCart.
           </p>
-        </section>
-      </nav>
+          <button class="btn btn-active btn-primary">Shop Now</button>
+        </div>
+      </section>
     </header>
-    <section>Why Choose Us</section>
-    <!-- Trending Products -->
-    <section class="max-w-7xl mx-auto">
-      <h3 class="font-bold text-2xl py-3">Trending Now</h3>
 
-      <div id="trending-products" class="flex flex-col md:flex-row gap-4"></div>
+    <!-- Why choose us -->
+    <section class="bg-slate-100 h-auto p-3">
+      <div>
+        <div class="text-center space-y-6 max-w-7xl mx-auto mt-8 sm:mt-12">
+          <h3 class="font-extrabold text-3xl">Why Choose Us</h3>
+          <p class="text-gray-600">
+            We provide the best shopping experience with top-notch services
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-4 gap-14 sm:gap-10 mt-14">
+            <div class="bg-white p-6 relative rounded-lg space-y-5">
+              <div
+                class="bg-white inline-block shadow-md rounded p-1 absolute -top-10 right-[75%] sm:right-[40%] md:right-[55%] lg:right-[65%]"
+              >
+                <div class="bg-purple-100 p-4 rounded">
+                  <i
+                    class="fa-regular fa-truck rounded text-3xl"
+                    style="color: rgba(90, 48, 232, 1)"
+                  ></i>
+                </div>
+              </div>
+              <h3 class="text-left font-bold mt-6">Fast Delivery</h3>
+
+              <p class="text-left text-gray-500">
+                Get your orders delivery to your doorstep quickly and
+                efficiently
+              </p>
+            </div>
+
+            <div class="bg-white p-6 relative rounded-lg space-y-5">
+              <div
+                class="bg-white inline-block shadow-md rounded p-1 absolute -top-10 right-[75%] sm:right-[40%] md:right-[55%] lg:right-[65%]"
+              >
+                <div class="bg-purple-100 p-4 rounded">
+                  <i
+                    class="fa-regular fa-headphones rounded text-3xl"
+                    style="color: rgba(90, 48, 232, 1)"
+                  ></i>
+                </div>
+              </div>
+              <h3 class="text-left font-bold mt-6">24/7 Support</h3>
+
+              <p class="text-left text-gray-500">
+                Our support team is available around the clock to assist you
+              </p>
+            </div>
+
+            <div class="bg-white p-6 relative rounded-lg space-y-5">
+              <div
+                class="bg-white inline-block shadow-md rounded p-1 absolute -top-10 right-[75%] sm:right-[40%] md:right-[55%] lg:right-[65%]"
+              >
+                <div class="bg-purple-100 p-4 rounded">
+                  <i
+                    class="fa-solid fa-shield rounded text-3xl"
+                    style="color: rgba(90, 48, 232, 1)"
+                  ></i>
+                </div>
+              </div>
+              <h3 class="text-left font-bold mt-6">Secure Payment</h3>
+
+              <p class="text-left text-gray-500">
+                Experience safe and secure transactions with our encrypted
+                payment system
+              </p>
+            </div>
+            <div class="bg-white p-6 relative rounded-lg space-y-5">
+              <div
+                class="bg-white inline-block shadow-md rounded p-1 absolute -top-10 right-[75%] sm:right-[40%] md:right-[55%] lg:right-[65%]"
+              >
+                <div class="bg-purple-100 p-4 rounded">
+                  <i
+                    class="fa-solid fa-arrows-rotate rounded text-3xl"
+                    style="color: rgba(90, 48, 232, 1)"
+                  ></i>
+                </div>
+              </div>
+              <h3 class="text-left font-bold mt-6">Easy Returns</h3>
+
+              <p class="text-left text-gray-500">
+                Not satisfied? Easy to return your products in 30 days
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending Products -->
+    <section class="max-w-7xl mx-auto p-3">
+      <h3 class="font-bold text-3xl py-3">Trending Now</h3>
+
+      <div id="trending-products" class="flex flex-col sm:flex-row gap-4"></div>
     </section>
     <script src="./script.js"></script>
   </body>

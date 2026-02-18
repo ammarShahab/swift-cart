@@ -58,8 +58,14 @@ const displayTrendingProducts = (products) => {
                 <p class="text-xl font-bold">$${product.price} </p>
               </div>
               <div class="flex gap-2 p-3">
-              <button class="btn flex-1">Details</button>
-              <button class="btn btn-active btn-primary flex-1">Add</button>
+              <button class="btn flex-1">
+                <i class="fa-regular fa-eye"></i>
+                Details
+              </button>
+              <button class="btn btn-active btn-primary flex-1">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Add
+              </button>
               </div>
             </div>
     `;
